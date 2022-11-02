@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Main Page -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbackground"
+    android:clipToOutline="true">
+
+
+    <!-- All Reminders -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="280sp"
+        android:gravity="center"
+        android:onClick="sign_out"
+        android:text="Sign Out"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <View
+
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/logoff"
+        android:onClick="sign_out" />
+
+
+
+    <TextView
+        android:id="@+id/all_reminde"
+        android:layout_width="261dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="89dp"
+        android:gravity="top"
+        android:text="All Reminders"
+        android:textColor="#ffff"
+        android:textSize="40sp" />
+
+    <View
+        android:id="@+id/multimedia_"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="199dp"
+        android:background="@drawable/opensettings"
+        android:onClick="goToSettings" />
+
+    <View
+        android:id="@+id/addReminder"
+
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="193dp"
+        android:background="@drawable/addreminder" />
+
+    <View
+        android:id="@+id/search_reminder"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="193dp"
+        android:background="@drawable/searchreminder" />
+
+    <TextView
+        android:id="@+id/upcoming"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="299dp"
+        android:gravity="top"
+        android:text="Upcoming"
+        android:textColor="#ffff"
+        android:textSize="26sp" />
+
+    <!--    <View-->
+    <!--EXAMPLE REMINDER LINE!-->
+    <!--        android:layout_width="368dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:layout_marginTop="349dp"-->
+    <!--        android:background="@drawable/raius"-->
+
+
+    <!--        />-->
+
+    <!--    <TextView-->
+
+    <!--        android:id="@+id/reminder_text"-->
+    <!--        android:layout_width="133dp"-->
+    <!--        android:layout_height="28dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginLeft="54dp"-->
+    <!--        android:layout_marginTop="369dp"-->
+    <!--        android:gravity="top"-->
+    <!--        android:text="Buy Chicken"-->
+    <!--        android:textColor="#FFFF"-->
+    <!--        android:textSize="24sp" />-->
+
+    <!--    <View-->
+
+    <!--        android:layout_width="35dp"-->
+    <!--        android:layout_height="35dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginLeft="282dp"-->
+    <!--        android:layout_marginTop="367dp"-->
+    <!--        android:background="@drawable/editreminder" />-->
+
+    <!--    <View-->
+
+    <!--        android:layout_width="35dp"-->
+    <!--        android:layout_height="35dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_marginLeft="339dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="367dp"-->
+    <!--        android:background="@drawable/completereminder"-->
+    <!--        />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/all_reminders"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="500dp"-->
+    <!--        android:orientation="vertical" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_reminders"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="369dp"
+        android:nestedScrollingEnabled="true"
+
+        />
+
+
+    <EditText
+        android:id="@+id/newLocation"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="192dp"
+        android:hint="Notify" />
+
+</RelativeLayout>

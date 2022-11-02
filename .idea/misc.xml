@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable-v24/bell_icon_1.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/border_shadow.xml" value="0.1905" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/btn_save_reminder.xml" value="0.1515" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/custom_note.xml" value="0.1455" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/custom_seekbar.xml" value="0.1905" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/facebook_fa.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/ic_baseline_local_grocery_store_24.xml" value="0.1545" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/line_1.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/line_2.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/logo_google.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/raius.xml" value="0.263" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectagnle_3.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectangle_1.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectangle_3.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectangle_4.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectangle_5.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectangle_6.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectangle_7.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectanle_4.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/rectanlge_3.xml" value="0.251" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/seekbar_progress.xml" value="0.1905" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/drawable/thumb.xml" value="0.1905" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1078125" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout-w1240dp/activity_register.xml" value="0.10052083333333334" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout-w936dp/activity_login.xml" value="0.19453125" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout-w936dp/activity_register.xml" value="0.19453125" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/Location_selector.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_login.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_loginpage.xml" value="0.1" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_main_app.xml" value="0.176" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_radius.xml" value="0.176" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_register.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_settings.xml" value="0.176" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/activity_time_change.xml" value="0.2" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/layout_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/list_item.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/layout/location.xml" value="0.10608108108108108" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1015" />
+        <entry key="..\:/Users/niko3/AndroidStudioProjects/ReminderApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1015" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

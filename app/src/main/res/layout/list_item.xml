@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clipToOutline="true"
+
+    tools:ignore="MissingDefaultResource">
+
+
+    <View
+
+        android:layout_width="368dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/raius"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/reminder_text"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="30dp"
+        android:gravity="top"
+        android:text=""
+        android:textColor="#FFFF"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/edit_reminder"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/editreminder" />
+
+    <View
+        android:id="@+id/complete_reminder"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="339dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/completereminder"
+        android:onClick="removeItemInList"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

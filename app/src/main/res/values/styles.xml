@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Font family: Roboto
+    Line height: 21sp
+    -->
+    <!-- styles.xml -->
+    <style name="welcome_to">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">#000000</item>
+
+    </style>
+    <!--
+Font family: Roboto
+Line height: 35sp
+-->
+    <!-- styles.xml -->
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <!-- styles.xml -->
+    <style name="sign_up_witG">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="or">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="sign_up_witE">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="already_a_m">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="log_in">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #53BBC1
+        </item>
+
+    </style>
+
+    <style name="agree_to_te">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="read_more">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+<!--<style name="note_style">-->
+<!--    <shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--        <solid android:color="#7A9198DB"/>-->
+<!--        <stroke-->
+<!--            android:width="3dp"-->
+<!--            android:color="#7A9198DB"-->
+<!--            />-->
+
+<!--        <padding-->
+<!--            android:left="5dp"-->
+<!--            android:top="5dp"-->
+<!--            android:right="5dp"-->
+<!--            android:bottom="5dp"/>-->
+<!--        <corners-->
+<!--            android:bottomRightRadius="25dp"-->
+<!--            android:bottomLeftRadius="25dp"-->
+<!--            android:topLeftRadius="25dp"-->
+<!--            android:topRightRadius="25dp"/>-->
+<!--    </shape>-->
+<!--</style>-->
+    <style name="note_stlye">
+        <item name="android:shape">
+            oval
+        </item>
+        <item name="android:padding">
+            5dp
+        </item>
+        <item name="android:background">
+
+        </item>
+        <item name="android:textSize">
+            24sp
+        </item>
+        <item name="cornerRadius" >
+            25dp
+        </item>
+        <item name="android:width">
+            3dp
+        </item>
+
+
+    </style>
+    <style name="dialog_button" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/lightBlue</item>
+    </style>
+</resources>

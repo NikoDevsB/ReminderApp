@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="#FFFF"
+    >
+    <View
+        android:id="@+id/login_regis"
+        android:layout_width="115dp"
+        android:layout_height="114dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/register"
+        />
+
+    <TextView
+        android:id="@+id/already_a_m"
+        android:layout_width="173dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:text="Already a member?"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <!-- Log In -->
+    <TextView
+        android:id="@+id/log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="220dp"
+        android:gravity="top"
+        android:text="Log In"
+        android:textColor="#53BBC1"
+        android:textSize="20sp" />
+
+    <!-- Rectangle 8 -->
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="404dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="289dp"
+        android:background="@drawable/raius"
+         />
+
+    <!-- Full Name -->
+
+    <!-- Rectangle 9 -->
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="293dp"
+        android:gravity="top"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="404dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="379dp"
+        android:background="@drawable/raius"
+         />
+
+    <!-- Rectangle 10 -->
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="386dp"
+        android:gravity="top"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="404dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/raius"
+
+        />
+    <!-- Phone -->
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="467dp"
+        android:gravity="top"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textSize="25sp" />
+
+    <!-- Rectangle 11 -->
+    <View
+        android:layout_width="404dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/raius"
+
+        />
+    <!-- Password -->
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="556dp"
+        android:gravity="top"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="383dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="674dp"
+        android:onClick="signUp"
+        android:background="@drawable/raius"
+
+        />
+
+    <!-- Sign up -->
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="364dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="689dp"
+        android:gravity="center_horizontal|top"
+        android:text="Sign Up"
+        android:textSize="30dp"
+
+        />
+
+</RelativeLayout>
