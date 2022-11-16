@@ -48,7 +48,7 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
 
         sql = new SQL(context);
         ArrayList<Reminder> res = sql.getAllRecords();
-        List<Geofence> ab = LocationClient.getTriggeringGeofences();
+       // List<Geofence> ab = LocationClient.getTriggeringGeofences();
 
         Log.i(TAG, "onReceive: BROADCAST IS RECEIVED");
 
@@ -69,7 +69,7 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
         Log.i(TAG, "Transition Type: " + geofenceTransition);
 
         // Test that the reported transition was of interest.
-        if (geofenceTransition == Geofence.GEOFENCE_TRANSITION_ENTER || geofenceTransition == Geofence.GEOFENCE_TRANSITION_DWELL
+        if (geofenceTransition == Geofence.GEOFENCE_TRANSITION_ENTER
         ) {
 
             // Get the geofences that were triggered. A single event can trigger

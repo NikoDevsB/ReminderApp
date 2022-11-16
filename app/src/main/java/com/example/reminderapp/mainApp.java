@@ -190,7 +190,6 @@ public class mainApp extends AppCompatActivity implements AddReminderDialog.Remi
         locationSelector = findViewById(R.id.select_loca);
 
 
-
         noteDAO = NoteDatabase.getDBInstance(this).noteDAO();
 
 
@@ -256,7 +255,7 @@ public class mainApp extends AppCompatActivity implements AddReminderDialog.Remi
 
             return geofencePendingIntent;
         }
-           Intent intent = new Intent();
+        Intent intent = new Intent();
         //DEBUG BROADCAST
         intent.setAction("com.example.reminderapp");
         intent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
